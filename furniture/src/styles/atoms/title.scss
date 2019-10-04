@@ -1,7 +1,10 @@
 .title--a {
   line-height: 1.3;
+  font-weight: 400;
   &.big {
     font-size: 2.2rem;
-    font-weight: 400;
+  }
+  &.middle {
+    font-size: 1.6rem;
   }
 }
