@@ -12,9 +12,11 @@ $phoneWidth              : 480px;
 $smPhoneWidth            : 320px;
 
 // Main color
+$gray-0                  : #f5f5f5;
 $gray-1                  : #dddddd;
 $gray-2                  : #c9c9c9;
-$red-1                   : rgb(153, 43, 43);
+$gray-3                  : #979797;
+$red-1                   : #fd5050;
 
 // Neutral Color
 $neutral-primary         : #303133;
@@ -30,8 +32,8 @@ $border-lightex          : #F2F6FC;
 
 
 
-$spacer: 1rem !default;
-$spacers: () !default;
+$spacer                  : 1rem !default;
+$spacers                 : () !default;
 
 $spacers: map-merge(
   (

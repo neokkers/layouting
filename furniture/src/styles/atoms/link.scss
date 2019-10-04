@@ -1,0 +1,7 @@
+.link--a {
+  color: $gray-3;
+  &:hover, &.active {
+    color: $mainFontColor;
+  }
+   
+}

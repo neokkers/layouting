@@ -8,3 +8,7 @@
 @import './molecules/molecules';
 @import './organisms/organisms';
 @import './templates/templates';
+
+body {
+  background-color: $gray-0;
+}
