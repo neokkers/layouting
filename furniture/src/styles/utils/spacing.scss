@@ -1,21 +1,21 @@
 
 @each $prop, $abbrev in (margin: m, padding: p) {
   @each $size, $length in $spacers {
-    .#{$abbrev}#{$infix}-#{$size} { #{$prop}: $length !important; }
-    .#{$abbrev}t#{$infix}-#{$size},
-    .#{$abbrev}y#{$infix}-#{$size} {
+    .#{$abbrev}-#{$size} { #{$prop}: $length !important; }
+    .#{$abbrev}t-#{$size},
+    .#{$abbrev}y-#{$size} {
       #{$prop}-top: $length !important;
     }
-    .#{$abbrev}r#{$infix}-#{$size},
-    .#{$abbrev}x#{$infix}-#{$size} {
+    .#{$abbrev}r-#{$size},
+    .#{$abbrev}x-#{$size} {
       #{$prop}-right: $length !important;
     }
-    .#{$abbrev}b#{$infix}-#{$size},
-    .#{$abbrev}y#{$infix}-#{$size} {
+    .#{$abbrev}b-#{$size},
+    .#{$abbrev}y-#{$size} {
       #{$prop}-bottom: $length !important;
     }
-    .#{$abbrev}l#{$infix}-#{$size},
-    .#{$abbrev}x#{$infix}-#{$size} {
+    .#{$abbrev}l-#{$size},
+    .#{$abbrev}x-#{$size} {
       #{$prop}-left: $length !important;
     }
   }
