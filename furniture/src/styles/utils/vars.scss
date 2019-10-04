@@ -1,0 +1,48 @@
+$mainFont                : 'Raleway', sans-serif;
+
+$mainFontColor           : #252525;
+$mainFontSize            : 16px;
+$mainFontWeight          : 400;
+$mainLineHeight          : 1.5;
+
+$desktopWidth            : 1280px;
+$tabletWidth             : 1024px;
+$smTabletWidth           : 768px;
+$phoneWidth              : 480px;
+$smPhoneWidth            : 320px;
+
+// Main color
+$gray-1                  : #dddddd;
+$gray-2                  : #c9c9c9;
+$red-1                   : rgb(153, 43, 43);
+
+// Neutral Color
+$neutral-primary         : #303133;
+$neutral-regular         : #606266;
+$neutral-secondary       : #909399;
+$neutral-placeholder     : #C0C4CC;
+
+// Border Color
+$border-base             : #DCDFE6;
+$border-light            : #E4E7ED;
+$border-lighter          : #EBEEF5;
+$border-lightex          : #F2F6FC;
+
+
+
+$spacer: 1rem !default;
+$spacers: () !default;
+
+$spacers: map-merge(
+  (
+    0: 0,
+    1: ($spacer * .25),
+    2: ($spacer * .5),
+    3: $spacer,
+    4: ($spacer * 1.5),
+    5: ($spacer * 3)
+  ),
+  $spacers
+);
+
+$displays: none, inline, inline-block, block, table, table-row, table-cell, flex, inline-flex !default;
