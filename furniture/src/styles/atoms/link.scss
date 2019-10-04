@@ -12,4 +12,9 @@
   &.bold {
     font-weight: bold;
   }
+  &.hover-underline {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
