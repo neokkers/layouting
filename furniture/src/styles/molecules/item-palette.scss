@@ -1,0 +1,15 @@
+.item-palette--m {
+  display: grid; 
+  &.gap-middle {
+    grid-gap: 2rem;
+  }
+  &.gap-small {
+    grid-gap: 1rem;
+  }
+  &.columns-4 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  &.columns-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

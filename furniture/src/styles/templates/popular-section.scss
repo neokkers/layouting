@@ -1,0 +1,11 @@
+.popular-section--t {
+  background-color: $gray-1;
+  margin: 7rem 0;
+  padding: 7rem 0;
+  .heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+  }
+}

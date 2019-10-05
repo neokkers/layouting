@@ -1,0 +1,28 @@
+.shop-card--m {
+  padding: 1rem;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  &:hover {
+    img {
+      transform: scale(1.07);
+    }
+  }
+  img {
+    transition: 0.3s;
+  }
+  .icon-group {
+    display: flex;
+    visibility: hidden;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+    .icon--a {
+      font-size: 0.9rem;
+    }
+  }
+  &:hover {
+    .icon-group {
+      visibility: visible;
+    }
+  }
+}

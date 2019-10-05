@@ -3,6 +3,9 @@
   &:hover, &.active {
     color: $mainFontColor;
   }
+  &.black {
+    color: $mainFontColor;
+  }
   &.red {
     color: $red-1;
     &:hover, &.active {
