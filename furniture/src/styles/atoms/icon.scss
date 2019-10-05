@@ -5,11 +5,18 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  font-size: 1.1rem;
   > .badge--a {
     position: absolute;
     right: -0.1rem;
     bottom: -0.1rem;
+  }
+  &.big {
+    font-size: 1.3rem;
+    width: 2.5rem;
+    i {
+      font-size: 1.1rem;
+    }
+    height: 2.5rem;
   }
   &.red {
     color: $red-1;
