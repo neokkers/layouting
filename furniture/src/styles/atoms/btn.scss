@@ -1,0 +1,9 @@
+.btn--a {
+  padding: 1rem 2.5rem;
+  cursor: pointer;
+  font-weight: bold;
+  &.red {
+    color: white;
+    background-color: $red-1;
+  }
+}

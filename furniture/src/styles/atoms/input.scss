@@ -1,0 +1,8 @@
+.input--a {
+  padding: 1rem 2rem;
+  border: 1px solid $gray-1;
+  width: 100%;
+  &::placeholder {
+    color: $gray-3
+  }
+}

@@ -15,7 +15,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-*, *:before, *:after { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: border-box; outline: none; }
 
 h1, h2, h3, h4, h5, h6 { margin: 0; }
 
@@ -34,4 +34,8 @@ ul, li {
 
 p {
   margin: 0;
+}
+
+input {
+  font-family: $mainFont;
 }

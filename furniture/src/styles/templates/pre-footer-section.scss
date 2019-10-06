@@ -1,12 +1,21 @@
 .pre-footer-section--t {
   margin-bottom: 7rem;
-  .titled-row--m {
+  .titled-row--o {
     margin-bottom: 5rem;
   }
   .title--a {
     // line-height: 1;
   }
-  .item-palette--m {
+  .item-palette--o {
     padding-top: 12px;
+  }
+  .line--a {
+    margin-bottom: 4rem;
+  }
+  .feedback-wrapper {
+    justify-content: space-between;
+    > div {
+      flex: 1;
+    }
   }
 }

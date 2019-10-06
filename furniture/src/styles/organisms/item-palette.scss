@@ -1,5 +1,8 @@
-.item-palette--m {
+.item-palette--o {
   display: grid; 
+  &.gap-big {
+    grid-gap: 4rem;
+  }
   &.gap-middle {
     grid-gap: 2rem;
   }
@@ -11,5 +14,8 @@
   }
   &.columns-3 {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+  &.columns-2 {
+    grid-template-columns: 1fr 1fr;
   }
 }
