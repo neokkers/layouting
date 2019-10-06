@@ -1,0 +1,14 @@
+footer.footer--t {
+  margin-bottom: 7rem;
+  > .container--t {
+    justify-content: space-between;
+    align-items: flex-start;
+    .socials {
+      align-items: center;
+      .icon--a {
+        margin-left: 1rem;
+        font-size: 1.3rem;
+      }
+    }
+  }
+}

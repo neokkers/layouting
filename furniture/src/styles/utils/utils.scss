@@ -8,3 +8,9 @@
 .color-gray-1 {
   color: $gray-1;
 }
+
+.hover-red {
+  &:hover {
+    color: $red-1;
+  }
+}
