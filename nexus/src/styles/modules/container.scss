@@ -1,0 +1,8 @@
+.container--m {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 7rem;
+  &.wide {
+    padding: 0 2rem;
+  }
+}
