@@ -4,10 +4,8 @@
 @import './utils/spacing.scss';
 @import './utils/normalize.scss';
 
-@import './atoms/atoms';
-@import './molecules/molecules';
-@import './organisms/organisms';
-@import './templates/templates';
+@import './modules/modules.scss';
+@import './areas/areas.scss';
 
 body {
   background-color: $gray-0;
