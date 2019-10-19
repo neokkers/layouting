@@ -1,4 +1,3 @@
-@each $value in $colors {
-  .color-#{$value} { color: $value; }
-  .bg-color-#{$value} { background-color: $value; }
+@each $color, $value in $colors {
+  .color-#{$color} { color: $value; }
 }

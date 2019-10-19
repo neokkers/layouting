@@ -5,7 +5,7 @@ $mainSectionGrad         : linear-gradient(to right, rgba(77,171,255,1) 0%, rgba
 $mainFontColor           : #222;
 $mainFontSize            : 14px;
 $mainFontWeight          : 400;
-$mainLineHeight          : 1.5;
+$mainLineHeight          : 1.7;
 
 $desktopWidth            : 1280px;
 $tabletWidth             : 1024px;
@@ -17,10 +17,23 @@ $smPhoneWidth            : 320px;
 $white                   : #fff;
 $gray-1                  : #777777;
 $light-gray-1            : #f9f9fe;
+$light-gray-2            : #f0f0f0;
 $light-blue-1            : #ecf6ff; 
 $blue-1                  : #3cacf0;
 
-$colors: white, gray-1, light-gray-1, light-blue-1, blue-1;
+// $colors: white, $gray-1, $light-gray-1, $light-gray-2, $light-blue-1, $blue-1;
+$colors                  : () !default;
+$colors                  : map-merge(
+  (
+    white                : white,
+    gray-1               : $gray-1,
+    light-gray-1         : $light-gray-1,
+    light-gray-2         : $light-gray-2,
+    light-blue-1         : $light-blue-1,
+    blue-1               : $blue-1
+  ),
+  $colors
+);
 
 
 
@@ -39,7 +52,8 @@ $spacers: map-merge(
     2: ($spacer * .5),
     3: $spacer,
     4: ($spacer * 1.5),
-    5: ($spacer * 3)
+    5: ($spacer * 3),
+    xl: ($spacer * 7)
   ),
   $spacers
 );
