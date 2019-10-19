@@ -3,7 +3,7 @@ $mainFont                : 'Raleway', sans-serif;
 $mainSectionGrad         : linear-gradient(to right, rgba(77,171,255,1) 0%, rgba(97,220,255,1) 100%);
 
 $mainFontColor           : #222;
-$mainFontSize            : 15px;
+$mainFontSize            : 14px;
 $mainFontWeight          : 400;
 $mainLineHeight          : 1.5;
 
@@ -14,12 +14,13 @@ $phoneWidth              : 480px;
 $smPhoneWidth            : 320px;
 
 // Colors
+$white                   : #fff;
 $gray-1                  : #777777;
 $light-gray-1            : #f9f9fe;
 $light-blue-1            : #ecf6ff; 
 $blue-1                  : #3cacf0;
 
-$colors: gray-1, light-gray-1, light-blue-1, blue-1;
+$colors: white, gray-1, light-gray-1, light-blue-1, blue-1;
 
 
 
