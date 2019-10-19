@@ -1,4 +1,5 @@
 @import './utils/vars.scss';
+@import './utils/colors.scss';
 @import './utils/display.scss';
 @import './utils/flex.scss';
 @import './utils/spacing.scss';
@@ -8,5 +9,5 @@
 @import './areas/areas.scss';
 
 body {
-  background-color: $gray-0;
+  // background-color: $gray-0;
 }
