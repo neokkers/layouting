@@ -1,0 +1,20 @@
+.link--a {
+  color: $gray-3;
+  &:hover, &.active {
+    color: $mainFontColor;
+  }
+  &.red {
+    color: $red-1;
+    &:hover, &.active {
+      color: $red-1;
+    }
+  }
+  &.bold {
+    font-weight: bold;
+  }
+  &.hover-underline {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
