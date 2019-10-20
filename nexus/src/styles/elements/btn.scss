@@ -7,6 +7,10 @@
   cursor: pointer;
   transition: 0.45s;
   border: 1px solid #eee;
+  &.gradient {
+    color: white;
+    background: $mainSectionGrad;
+  }
   &.transparent {
     background: rgba(240,240,240,0.1);
     color: white;
@@ -21,6 +25,14 @@
     &:hover {
       background: rgba(240,240,240,0.1);
       color: white;
+    }
+    &.hover-grad {
+      border: none;
+      &:hover, &.active {
+        color: white;
+        background: $mainSectionGrad;
+        box-shadow: $main-shadow;
+      }
     }
   }
 }

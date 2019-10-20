@@ -25,6 +25,7 @@ $blue-1                  : #3cacf0;
 $colors                  : () !default;
 $colors                  : map-merge(
   (
+    main                 : $mainFontColor,
     white                : white,
     gray-1               : $gray-1,
     light-gray-1         : $light-gray-1,
