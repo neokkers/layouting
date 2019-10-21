@@ -21,6 +21,7 @@ $light-gray-2            : #f0f0f0;
 $light-blue-1            : #ecf6ff; 
 $blue-1                  : #3cacf0;
 $gold-1                  : #ffc000;
+$black                   : #010410;
 
 // $colors: white, $gray-1, $light-gray-1, $light-gray-2, $light-blue-1, $blue-1;
 $colors                  : () !default;
@@ -33,7 +34,8 @@ $colors                  : map-merge(
     light-gray-2         : $light-gray-2,
     light-blue-1         : $light-blue-1,
     blue-1               : $blue-1,
-    gold-1               : $gold-1 
+    gold-1               : $gold-1,
+    black                : $black
   ),
   $colors
 );
