@@ -1,0 +1,14 @@
+.info-block--m {
+  .des {
+    margin-top: 2.1rem;
+  }
+  .btns {
+    margin-top: 2.7rem;
+    .btn--e {
+      &:first-child { margin-right: 0.5rem; }
+    }
+  }
+  .text-center {
+    text-align: center;
+  }
+}

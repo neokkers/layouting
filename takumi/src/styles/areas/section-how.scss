@@ -1,0 +1,13 @@
+.section-how--a {
+  .palette {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    .icon-card--m {
+      padding-bottom: 0;
+    }
+  }
+  .title-block--m {
+    margin-bottom: 3rem;
+  }
+}

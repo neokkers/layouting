@@ -1,0 +1,66 @@
+$mainFont                : 'Raleway', sans-serif;
+
+$mainSectionGrad         : linear-gradient(to right, rgba(77,171,255,1) 0%, rgba(97,220,255,1) 100%);
+
+$mainFontColor           : #222;
+$mainFontSize            : 14px;
+$mainFontWeight          : 400;
+$mainLineHeight          : 1.7;
+
+$desktopWidth            : 1280px;
+$tabletWidth             : 1024px;
+$smTabletWidth           : 768px;
+$phoneWidth              : 480px;
+$smPhoneWidth            : 320px;
+
+// Colors
+$white                   : #fff;
+$gray-1                  : #777777;
+$light-gray-1            : #f9f9fe;
+$light-gray-2            : #f0f0f0;
+$light-blue-1            : #ecf6ff; 
+$blue-1                  : #3cacf0;
+$gold-1                  : #ffc000;
+$black                   : #010410;
+
+// $colors: white, $gray-1, $light-gray-1, $light-gray-2, $light-blue-1, $blue-1;
+$colors                  : () !default;
+$colors                  : map-merge(
+  (
+    main                 : $mainFontColor,
+    white                : white,
+    gray-1               : $gray-1,
+    light-gray-1         : $light-gray-1,
+    light-gray-2         : $light-gray-2,
+    light-blue-1         : $light-blue-1,
+    blue-1               : $blue-1,
+    gold-1               : $gold-1,
+    black                : $black
+  ),
+  $colors
+);
+
+
+
+$main-shadow: 0px 10px 45px -16px rgba(194,194,194,1);
+// $main-shadow: 0px 10px 45px -23px rgba(117,117,117,1);
+
+
+
+$spacer                  : 1rem !default;
+$spacers                 : () !default;
+
+$spacers: map-merge(
+  (
+    0: 0,
+    1: ($spacer * .25),
+    2: ($spacer * .5),
+    3: $spacer,
+    4: ($spacer * 1.5),
+    5: ($spacer * 3),
+    xl: ($spacer * 7)
+  ),
+  $spacers
+);
+
+$displays: none, inline, inline-block, block, table, table-row, table-cell, flex, inline-flex !default;

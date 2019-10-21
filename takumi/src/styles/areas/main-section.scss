@@ -1,0 +1,19 @@
+.main-section--a {
+  height: 100vh;
+  background: $mainSectionGrad;
+  > .container--m {
+    height: calc(100vh - 80px);
+    position: relative;
+    top: -30px;
+    > div {
+      width: 60%;
+    }
+    .info-block--m {
+      // flex-shrink: 0;
+      width: 40%;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}

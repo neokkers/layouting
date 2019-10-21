@@ -1,0 +1,56 @@
+.plan-card--m {
+  border-radius: 5px;
+  border: 1px solid $light-gray-2;
+  .heading {
+    border-radius: 4px 4px 0 0px;
+    text-align: center;
+    padding: 2rem 0;
+    background-color: $light-blue-1;
+    border-bottom: 1px solid $light-gray-2;
+  }
+  .body {
+    padding: 2.3rem;
+    ul {
+      list-style-type: none;
+      margin-bottom: 2rem;
+      color: $gray-1;
+      text-align: center;
+      li:not(:last-child) {
+        margin-bottom: 1.3rem;
+      }
+    }
+    .price-block {
+      padding: 2rem;
+      background-color: $light-blue-1;
+      .price {
+        // height: 4rem;
+        display: flex;
+        font-weight: bold;
+        justify-content: space-between;
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+        .symbol {
+          align-self: flex-start;
+          font-size: 2rem;
+        }
+        .value {
+          align-self: center;
+          font-size: 4rem;
+          line-height: 1;
+          position: relative;
+          // top: -0.7rem;
+        }
+        .per {
+          line-height: 1.2;
+          color: $gray-1;
+          align-self: flex-end;
+        }
+      }
+      .btn--e {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+}

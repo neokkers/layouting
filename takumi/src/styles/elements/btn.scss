@@ -1,0 +1,43 @@
+.btn--e {
+  display: inline-block;
+  padding: 1rem 2.3rem;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: 0.45s;
+  border: 1px solid #eee;
+  &.gradient {
+    color: white;
+    background: $mainSectionGrad;
+    &:hover, &.active {
+      color: white;
+      background: $mainSectionGrad;
+      box-shadow: $main-shadow;
+    }
+  }
+  &.transparent {
+    background: rgba(240,240,240,0.1);
+    color: white;
+    &:hover {
+      background-color: #fff;
+      color: rgb(32, 32, 32);
+    }
+  }
+  &.white {
+    background: white;
+    color: rgb(32, 32, 32);
+    &:hover {
+      // background: rgba(240,240,240,0.1);
+      // color: white;
+    }
+    &.hover-grad {
+      border: none;
+      &:hover, &.active {
+        color: white;
+        background: $mainSectionGrad;
+        box-shadow: $main-shadow;
+      }
+    }
+  }
+}
