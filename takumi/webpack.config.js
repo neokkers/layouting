@@ -1,6 +1,13 @@
 const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
+
+// const PATHS = {
+//   src: path.join(__dirname, "./src"),
+//   dist: path.join(__dirname, "./dist"),
+//   assets: "assets/"
+// };
 
 module.exports = {
   entry: {
@@ -25,29 +32,11 @@ module.exports = {
           "postcss-loader",
           "sass-loader"
         ]
-      }, {
-          test: /\.(eot|svg|ttf|woff|woff2)$/,
-          use: [
-                   {
-                       loader: 'file-loader?name=./assets/fonts/webfonts/[name].[ext]'
-                   },
-                   {
-                       loader: 'file-loader?name=./assets/fonts/Roboto/[name].[ext]'
-                   }
-               ]
+      },
+      {
+        test: /\.(png|woff|woff2|eot|ttf|svg)$/,
+        loader: "url-loader?limit=100000"
       }
-      // {test: /\.(jpg|jpeg|png|woff|woff2|eot|ttf|svg)$/,loader: 'url-loader?limit=10000'}
-      // {
-      //   test: /\.(ttf|eot|woff|woff2)$/,
-      //   use: [
-      //     {
-      //       loader: 'file-loader',
-      //       options: {
-      //         name: 'fonts/[name].[ext]',
-      //       }
-      //     }
-      //   ]
-      // }
     ]
   },
   plugins: [
@@ -58,6 +47,7 @@ module.exports = {
       hash: false,
       template: "index.html",
       filename: "index.html"
-    })
+    }),
+    new CopyWebpackPlugin([{ from: `src/fonts`, to: `assets/fonts` }])
   ]
 };

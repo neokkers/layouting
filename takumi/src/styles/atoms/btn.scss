@@ -1,0 +1,42 @@
+.btn--a {
+  padding: 1.1rem 2.3rem 1.25rem 2.3rem;
+  line-height: 1;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  &::before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    transition: 0.4s;
+  }
+  &:hover {
+    &::before {
+      width: 100%;
+    }
+  }
+  &.gray {
+    background-color: $light-gray-1;
+    &:hover {
+      color: white;
+    }
+    &::before {
+      background-color: $mainFontColor;
+    }
+  }
+  &.brown {
+    color: $brown;
+    background-color: $light-brown;
+    &:hover {
+      color: white;
+    }
+    &::before {
+      background-color: $brown;
+    }
+  }
+}

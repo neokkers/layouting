@@ -1,0 +1,21 @@
+.btn-bb--a {
+  cursor: pointer;
+  padding: 1.5rem 0.8rem;
+  color: $gray-1;
+  position: relative;
+  &:hover {
+    color: $brown;
+    &::after {
+      width: 100%;
+    }
+  }
+  &::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    bottom: 0;
+    left: 0;
+    transition: 0.4s;
+    border-bottom: 2px solid $brown;
+  }
+}

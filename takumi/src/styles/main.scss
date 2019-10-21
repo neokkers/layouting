@@ -7,7 +7,11 @@
 @import './utils/utils.scss';
 @import './utils/fonts.scss';
 
+@import './atoms/atoms';
+@import './molecules/molecules';
+@import './templates/templates';
 
 body {
   // background-color: $gray-0;
+  letter-spacing: 0.5px;
 }

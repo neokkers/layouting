@@ -1,9 +1,9 @@
-$mainFont                : 'Raleway', sans-serif;
+$mainFont                : 'UniversBold', sans-serif;
 
 $mainSectionGrad         : linear-gradient(to right, rgba(77,171,255,1) 0%, rgba(97,220,255,1) 100%);
 
-$mainFontColor           : #222;
-$mainFontSize            : 14px;
+$mainFontColor           : #1d1d1d;
+$mainFontSize            : 15px;
 $mainFontWeight          : 400;
 $mainLineHeight          : 1.7;
 
@@ -15,13 +15,13 @@ $smPhoneWidth            : 320px;
 
 // Colors
 $white                   : #fff;
-$gray-1                  : #777777;
-$light-gray-1            : #f9f9fe;
-$light-gray-2            : #f0f0f0;
-$light-blue-1            : #ecf6ff; 
-$blue-1                  : #3cacf0;
-$gold-1                  : #ffc000;
-$black                   : #010410;
+$gray-1                  : #898989;
+$gray-2                  : #565656;
+$light-gray-1            : #f3f3f3;
+$light-gray-2            : rgba(86,86,86,0.45);
+$light-brown             : #f7f3ec;
+$brown                   : #ad7d2b; 
+$yellow                  : #ddac58;
 
 // $colors: white, $gray-1, $light-gray-1, $light-gray-2, $light-blue-1, $blue-1;
 $colors                  : () !default;
@@ -30,12 +30,12 @@ $colors                  : map-merge(
     main                 : $mainFontColor,
     white                : white,
     gray-1               : $gray-1,
+    gray-2               : $gray-2,
     light-gray-1         : $light-gray-1,
     light-gray-2         : $light-gray-2,
-    light-blue-1         : $light-blue-1,
-    blue-1               : $blue-1,
-    gold-1               : $gold-1,
-    black                : $black
+    light-brown          : $light-brown,
+    brown                : $brown,
+    yellow               : $yellow
   ),
   $colors
 );
