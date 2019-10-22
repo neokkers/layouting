@@ -1,0 +1,46 @@
+.card--m {
+  // overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  > .img-wrapper {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    z-index: 1;
+    img {
+      width: 100%;
+    }
+  }
+  position: relative;
+  &.scaling {
+    position: relative;
+    transition: 0.3s;
+    .image-badge--m {
+      width: 100%;
+      transition: 0.4s;
+      position: absolute;
+      z-index: 0;
+      &:first-child {
+        top: 80px;
+      }
+      &:last-child {
+        bottom: 80px;
+      }
+    }
+    &:hover {
+      z-index: 3;
+      box-shadow: $box-shadow-1;
+      transform: scale(1.07);
+      .image-badge--m {
+        position: absolute;
+        &:first-child {
+          top: -80px;
+        }
+        &:last-child {
+          bottom: -80px;
+        }
+      }
+    }
+  }
+}

@@ -2,6 +2,9 @@
   width: 100%;
   margin: 0 auto;
   padding: 0 3rem;
+  &.middle {
+    max-width: 1550px;
+  }
   &.short {
     width: 75%;
   }

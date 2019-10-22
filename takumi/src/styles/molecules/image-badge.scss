@@ -1,0 +1,44 @@
+.image-badge--m {
+  display: flex;
+  align-items: center;
+  padding: 0 1.4rem;
+  height: 80px;
+  // border: 1px solid yellow;
+  background-color: #fff; 
+  .middle-img {
+    padding: 0 1.8rem;
+    .img {
+      height: 3rem;
+      width: 3rem;
+    }
+  }
+  .small-img {
+    .img {
+      height: 2.4rem;
+      width: 2.4rem;
+    }
+  }
+  .img {
+    height: 3rem;
+    width: 3rem;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 1rem;
+  }
+  .info {
+    .nickname {
+      font-size: 0.9rem;
+      font-family: $fontMedium;
+      color: $brown;
+    }
+    .followers {
+      font-size: 0.8rem;
+      color: $gray-1;
+    }
+    .brand {
+      font-size: 1rem;
+    }
+  }
+}
