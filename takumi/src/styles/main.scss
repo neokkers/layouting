@@ -2,15 +2,17 @@
 @import './utils/colors.scss';
 @import './utils/display.scss';
 @import './utils/flex.scss';
-@import './utils/spacing.scss';
-@import './utils/normalize.scss';
-@import './utils/utils.scss';
-@import './utils/fonts.scss';
 
 @import './atoms/atoms';
 @import './molecules/molecules';
 @import './organisms/organisms';
 @import './templates/templates';
+
+@import './utils/spacing.scss';
+@import './utils/normalize.scss';
+@import './utils/utils.scss';
+@import './utils/fonts.scss';
+
 
 body {
   // background-color: $gray-0;

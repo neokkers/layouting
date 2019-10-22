@@ -1,6 +1,9 @@
 .title--a {
-  line-height: 1;
+  line-height: 1.2;
+  font-family: $font-light;
+  letter-spacing: 0;
+  font-weight: lighter;
   &.big {
-    font-size: 3.2rem;
+    font-size: 6rem;
   }
 }
