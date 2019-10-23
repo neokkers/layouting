@@ -12,6 +12,17 @@
   }
   .card--m {
     margin-right: 5rem;
-    flex: 1.4;
+    flex: 1.2;
+  }
+  &.reverse {
+    flex-direction: row-reverse;
+    .title-box--m {
+      // margin-left: 0;
+      // margin-right: 4rem;
+    }
+    .card--m {
+      margin-right: 0;
+      margin-left: 5rem;
+    }
   }
 }
