@@ -1,0 +1,14 @@
+.icon-des--m {
+  .icon {
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+  }
+  &.white-gold {
+    .icon {
+      color: $yellow;
+    }
+    .text--a {
+      color: white;
+    }
+  }
+}

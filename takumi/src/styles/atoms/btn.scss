@@ -29,6 +29,16 @@
       background-color: $mainFontColor;
     }
   }
+  &.dark-gray {
+    background-color: $gray-3;
+    &:hover {
+      color: white;
+      color: $mainFontColor;
+    }
+    &::before {
+      background-color: white;
+    }
+  }
   &.brown {
     color: $brown;
     background-color: $light-brown;

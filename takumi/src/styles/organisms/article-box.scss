@@ -25,4 +25,10 @@
       margin-left: 5rem;
     }
   }
+  &.low-gap {
+    .card--m {
+      margin-right: 3rem;
+      flex: 1;
+    }
+  }
 }
