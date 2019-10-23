@@ -43,4 +43,9 @@
       }
     }
   }
+
+  &.big {
+    box-shadow: $box-shadow-2;
+    height: 800px;
+  }
 }

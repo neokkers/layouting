@@ -32,6 +32,7 @@
       font-size: 0.9rem;
       font-family: $font-medium;
       color: $brown;
+      line-height: 1;
     }
     .followers {
       font-size: 0.8rem;
@@ -39,6 +40,29 @@
     }
     .brand {
       font-size: 1rem;
+    }
+  }
+
+  &.big {
+    padding: 0 2rem;
+    height: 130px;
+    .img {
+      height: 3.8rem;
+      width: 3.8rem;
+    }
+    .info {
+      .nickname {
+        font-size: 1.3rem;
+        font-family: $font-medium;
+        color: $brown;
+      }
+      .followers {
+        font-size: 0.8rem;
+        color: $gray-1;
+      }
+      .brand {
+        font-size: 1.3rem;
+      }
     }
   }
 }

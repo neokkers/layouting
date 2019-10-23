@@ -1,0 +1,17 @@
+.article-box--o {
+  display: flex;
+  > div {
+    flex: 1;
+  }
+  .title-box--m {
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 4rem;
+  }
+  .card--m {
+    margin-right: 5rem;
+    flex: 1.4;
+  }
+}
