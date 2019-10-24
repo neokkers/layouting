@@ -1,0 +1,18 @@
+.section-digits--t {
+  padding-bottom: 20rem;
+  > .container--t {
+    display: flex;
+    flex-direction: column;
+  }
+  .big-digit--m {
+    &:not(:last-child) {
+      margin-bottom: 7rem;
+    }
+    &:nth-child(2) {
+      align-self: center;
+    }
+    &:last-child {
+      align-self: flex-end;
+    }
+  }
+}

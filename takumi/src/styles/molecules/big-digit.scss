@@ -1,0 +1,15 @@
+.big-digit--m {
+  .title--a {
+    letter-spacing: 2px;
+    color: $gray-1;
+    text-transform: uppercase;
+    font-family: $mainFont;
+  }
+  .digit {
+    font-size: 16rem;
+    color: $yellow;
+    font-family: $bebas;
+    line-height: 1;
+    margin-top: 1rem;
+  }
+}
