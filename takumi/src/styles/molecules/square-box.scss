@@ -1,0 +1,55 @@
+.square-box--m {
+  width: 290px;
+  height: 290px;
+  padding: 2.5rem;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  transition: 0.3s;
+  cursor: pointer;
+  i, div {
+    z-index: 1;
+    position: relative;
+  }
+  div {
+    margin-bottom: 1.5rem;
+    font-family: $font-medium;
+  }
+  &::after {
+    position: absolute;
+    width: 100%;
+    content: '';
+    height: 100%;
+    transition: 0.3s;
+    // background: linear-gradient(212deg, rgba(173,125,43,0), #ad7d2b);
+    background: rgba(248, 180, 62, 0.5);
+    opacity: 0.97;
+    left: 0;
+    top: 0;
+    z-index: 0;
+  }
+
+  i {
+    position: relative;
+    transition: 0.3s;
+    position: relative;
+    // right: 20px;
+    right: -0.9rem;
+    transform: scaleX(2.5) scaleY(0.6);
+    // transform: ;
+  }
+  &:hover {
+    i {
+      right: -35px;
+    }
+    &::after {
+      // background: linear-gradient(212deg, rgba(143, 104, 37, 0), #ffac1e);
+      background: rgba(248, 180, 62, 0.8);
+    }
+  }
+}

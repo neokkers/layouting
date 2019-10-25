@@ -7,12 +7,17 @@
   .card--m {
     margin-left: 0;
     width: 55%;
-    
+    position: relative;
   }
   .icon-digit--m {
     margin-right: 4rem;
   }
   .article-box--o.reverse .card--m {
     margin-left: 0;
+  }
+  .square-box--m {
+    position: absolute;
+    bottom: -290px;
+    left: -290px;
   }
 }
