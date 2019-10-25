@@ -66,8 +66,9 @@ $spacers: map-merge(
     3: $spacer,
     4: ($spacer * 1.5),
     5: ($spacer * 3),
-    l: ($spacer * 8),
-    xl: ($spacer * 12)
+    l: ($spacer *10),
+    xl: ($spacer * 12),
+    xxl: ($spacer * 13)
   ),
   $spacers
 );
