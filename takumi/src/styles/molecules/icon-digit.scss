@@ -1,0 +1,20 @@
+.icon-digit--m {
+  .title {
+    font-size: 0.7rem;
+    color: $gray-1;
+  }
+  .info {
+    display: flex;
+    align-items: center;
+    color: $brown;
+    i {
+      font-size: 1.2rem;
+      margin-right: 1rem;
+    }
+    .digit {
+      line-height: 1.2;
+      font-size: 3rem;
+      font-family: $bebas;
+    }
+  }
+}

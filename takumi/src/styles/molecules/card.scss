@@ -48,4 +48,14 @@
     box-shadow: $box-shadow-2;
     height: 780px;
   }
+
+  &.no-titles {
+    .image-badge--m {
+      display: none;
+    }
+    img {
+      height: 100%;
+      width: auto;
+    }
+  }
 }
