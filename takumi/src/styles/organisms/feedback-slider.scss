@@ -1,0 +1,20 @@
+.feedback-slider--o {
+  width: 80%;
+  margin: 0 auto;
+  .des {
+    font-size: 2.2rem;
+    color: $brown;
+    font-family: $font-light;
+  }
+  .signature {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    color: $brown-2;
+    font-family: $font-light;
+  }
+  img {
+    width: 5rem;
+    margin-right: 2rem;
+  }
+}
